@@ -1,0 +1,98 @@
+/* Login Form Design starts here. */
+
+* {
+	font-family: Georgia, serif;
+	margin:5px;
+	padding:5px;
+	
+}
+body {
+	width:1500px;
+	border:double;
+	margin:right;
+	border:2px solid black;
+	
+
+}
+
+
+.login-form li {
+	list-style:none;
+	margin:20px 0px;
+	margin-left:40px;
+}
+.login-box {
+	width:500px;
+	margin:auto;
+	margin-top:10%;
+	margin-bottom:15%
+	
+	border:double;
+	border-radius:20px;
+	background-color:#ADD8E6;
+
+
+	
+}
+.login-box h1 {
+	text-align:center;
+	margin:0px;
+	background-color:black;
+	color:white;
+	font-weight:normal;
+}
+label {
+	margin:5px 0px;
+	font-size:20px;
+}
+.label-block {
+	display:inline-block;
+	width:100px;
+}
+.input-box {
+	display:inline-block;
+	border:double;
+	margin:10px 5px;
+}
+.input-box input {
+	width:200px;
+	padding:5px 5px;
+	border:double;
+	margin:auto;
+}
+.input-box textarea {
+	width:200px;
+	border:double;
+	height:75px;
+	padding:5px 5px;
+}
+.input-box select {
+	padding:10px 12px;
+	width:200px;
+	margin:solid black;
+               border:double;
+               font-size:20px;
+}
+.submit_button {
+	font-size:20px;
+	margin-top:20px;
+	margin-right:20px;
+	padding:6px 10px;
+	background-color:black;
+	border:double;
+	color:white;
+}
+.submit_button:hover,.submit_button:focus {
+	cursor:pointer;
+	color:black;
+	background:#ADD8E6;
+}
+.error_message {
+	margin-left:5px;
+	color:red;
+}
+.confirm_message {
+	margin-left:5px;
+	color:green;
+}
+/* Login Form Design ends here. */

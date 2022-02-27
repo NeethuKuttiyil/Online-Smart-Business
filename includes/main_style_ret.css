@@ -1,0 +1,244 @@
+* {
+	font-family: Georgia, serif;
+	margin:5px;
+	padding:5px;
+	
+}
+
+	
+	
+	
+}
+li {
+	list-style:none;
+	margin:0px;
+}
+a {
+	text-decoration:none;
+}
+*:focus {
+	outline:1px solid #5d44db;
+}
+::-moz-selection { /* Code for Firefox */
+    color: white;
+	background:#5d44db;
+}
+
+::selection {
+    color: white;
+	background:#5d44db;
+}
+/* Login Form Design starts here. */
+.login-form li {
+	list-style:none;
+	margin:20px 0px;
+	margin-left:40px;
+}
+.login-box {
+	width:500px;
+	margin:auto;
+	margin-top:10%;
+	border:2px solid #5d44db;
+	
+	background-image: url("st1.jpg");
+}
+.login-box h1 {
+	text-align:center;
+	margin:0px;
+	background-color:#5d44db;
+	color:white;
+	font-weight:normal;
+}
+label {
+	margin:5px 0px;
+	font-size:20px;
+}
+.label-block {
+	display:inline-block;
+	width:100px;
+}
+.input-box {
+	display:inline-block;
+	margin:10px 5px;
+}
+.input-box input {
+	width:200px;
+	padding:5px 5px;
+	margin:auto;
+}
+.input-box textarea {
+	width:200px;
+	height:75px;
+	padding:5px 5px;
+}
+.input-box select {
+	padding:10px 12px;
+	width:200px;
+	margin:solid black;
+               border:double;
+               font-size:20px;
+}
+.submit_button {
+	font-size:28px;
+	margin-top:90px;
+	margin-right:20px;
+	padding:6px 10px;
+	background-color:	#48A14D;
+	border:double;
+	color:black;
+}
+.submit_button:hover,.submit_button:focus {
+	cursor:pointer;
+	color:black;
+	background:#48A14D;
+}
+.error_message {
+	margin-left:5px;
+	color:red;
+}
+.confirm_message {
+	margin-left:5px;
+	color:green;
+}
+/* Login Form Design ends here. */
+
+
+
+/* Design Admin page starts here. */
+header {
+	background-color:#5d44db;
+	height:100px;
+	margin:0px auto;
+}
+header h1 {
+	text-align:center;
+	line-height:100px;
+	color:white;
+	font-size:50px;
+	font-weight:normal;
+}
+nav {
+	margin:0px;
+	text-align:center;
+	font-size:20px;
+	background-color:#44a1db;
+	border-bottom:2px solid #ccc;
+}
+nav a {
+	color:black;
+	display:inline-block;
+	padding:10px 20px;
+}
+nav a:hover {
+	background-color:#48A14D;
+	color:white;
+}
+.table_mainWrapper {
+	width:1200px;
+	
+}
+#td_aside {
+	
+	vertical-align:top;
+	width:200px;
+	  background-image: url('../assets/img/ret9.jpg');
+	
+	border-right:2px solid #ccc;
+}
+aside a {
+	color:black;
+	display:block;
+	font-size:30px;
+	padding:10px 20px;
+	 
+	
+}
+aside a:hover {
+	background-color:#48A14D; /* #d6d6d6 */
+	color:white;
+}
+#td_section {
+	font-size:20px;
+	vertical-align:top;
+}
+.userInfoBar {
+	width:1000px;
+	background-color:#f4f4f4;
+}
+section {
+	width:1000px;
+	padding:10px;
+	padding-bottom:40px;
+}
+section h1 {
+	margin-bottom:10px;
+	font-weight:normal;
+	color:#333;
+	font-size: 26px;
+}
+section p {
+	width:800px;
+	line-height: 25px;
+}
+article {
+	margin-top:20px;
+	margin-bottom:50px;
+}
+article h2 {
+	margin-bottom:5px;
+	font-weight:normal;
+	color:#333;
+	font-size: 20px;
+}
+table {
+	border-collapse: separate;
+	width:125%;
+	
+               
+   	
+}
+.table_displayData td, .table_displayData th {
+	border:1.5px solid black;
+	padding: 6px 7px;
+	text-align: left;
+background-color:#d2f8d2			;
+               
+}
+.table_displayData th {
+	background-color:		#5AAC84;
+	color:#333;
+               
+}
+.table_invoiceFormat th {
+	background-color:		#5AAC84;
+	color:#333;
+	padding: 7px 25px;
+}
+.table_invoiceFormat tr {
+	border:none;
+	
+}
+.table_invoiceFormat td,.table_invoiceFormat tr {
+	padding: 5px 25px;
+	text-align: left;
+	
+}
+.table_infoFormat {
+	margin:20px 5px 25px;
+}
+.table_infoFormat  td {
+	padding:5px 5px 0px 0px;
+	
+}
+.table_infoFormat  td:first-child {
+	font-weight:bold;
+}
+footer {
+	clear:both;
+	padding:20px;
+	font-size:20px;
+	background-color:#7BB78C; /* #009688 */
+	color:black;
+	text-align:center;
+}
+/* Design of Admin page ends here. */
